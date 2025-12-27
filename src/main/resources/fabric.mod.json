@@ -1,0 +1,15 @@
+
+{
+  "schemaVersion": 1,
+  "id": "autofishingfabric",
+  "version": "1.0.0",
+  "name": "Auto Fishing Fabric",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["autofishing.AutoFishingFabricClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.8"
+  }
+}
